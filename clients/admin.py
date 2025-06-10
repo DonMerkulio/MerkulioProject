@@ -13,7 +13,7 @@ def generate_key():
 
 @admin.register(Clients)
 class AdminClients(admin.ModelAdmin):
-    list_display = ('name', 'url', 'export_url')
+    list_display = ('name', 'url', 'export_url_xlsx', 'export_url_csv')
 
     def save_model(self, request, obj, form, change):
         if not obj.key:  # Генерировать ключ только если его нет
