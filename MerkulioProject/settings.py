@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-)n*sk-yno%50qxkz0@*@v*ce@&dr72iodn)dumv0!ol(wuilxk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'merkulio.site', '194.58.120.165', 'www.merkulio.site', '*']
+ALLOWED_HOSTS = ['merkulio.site', 'www.merkulio.site',]
 
 
 # Application definition
@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'MerkulioProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3.1',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 

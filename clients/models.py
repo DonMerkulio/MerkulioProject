@@ -13,7 +13,7 @@ class Clients(models.Model):
 
     def save(self, *args, **kwargs):
         if not self.export_url:  # Генерировать ключ только если его нет
-            self.export_url = f'http://194.58.120.165:8000/export/{self.key}/'
+            self.export_url = f'www.merkulio.site/export/{self.key}/'
         super().save(*args, **kwargs)
 
     def __str__(self):
