@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0afff85a-a576-429c-8046-03d1fc55938f" name="Changes" comment="first">
+    <list default="true" id="0afff85a-a576-429c-8046-03d1fc55938f" name="Changes" comment="2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MerkulioProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MerkulioProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +58,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -80,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733992630860</updated>
-      <workItem from="1749550174838" duration="7216000" />
+      <workItem from="1749550174838" duration="9199000" />
     </task>
     <task id="LOCAL-00001" summary="сделана выгрузка для клиентов с динамичными полями через админку, так же список клиентов для добавления ключа на выгрузку">
       <option name="closed" value="true" />
@@ -106,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749560488499</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2">
+      <option name="closed" value="true" />
+      <created>1749566254542</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749566254542</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="сделана выгрузка для клиентов с динамичными полями через админку, так же список клиентов для добавления ключа на выгрузку" />
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
 </project>

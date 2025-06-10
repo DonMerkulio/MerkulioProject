@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-)n*sk-yno%50qxkz0@*@v*ce@&dr72iodn)dumv0!ol(wuilxk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['merkulio.site', 'www.merkulio.site',]
+ALLOWED_HOSTS = ['merkulio.site', 'www.merkulio.site', '127.0.0.1:8000', '*' ]
 
 
 # Application definition
