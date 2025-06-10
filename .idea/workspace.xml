@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0afff85a-a576-429c-8046-03d1fc55938f" name="Changes" comment="сделана выгрузка для клиентов с динамичными полями через админку, так же список клиентов для добавления ключа на выгрузку">
-      <change beforePath="$PROJECT_DIR$/.idea/MerkulioProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MerkulioProject.iml" afterDir="false" />
+    <list default="true" id="0afff85a-a576-429c-8046-03d1fc55938f" name="Changes" comment="first">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MerkulioProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MerkulioProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_part/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/trading/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/trading/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +59,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733992630860</updated>
-      <workItem from="1749550174838" duration="4300000" />
+      <workItem from="1749550174838" duration="7216000" />
     </task>
     <task id="LOCAL-00001" summary="сделана выгрузка для клиентов с динамичными полями через админку, так же список клиентов для добавления ключа на выгрузку">
       <option name="closed" value="true" />
@@ -101,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734000527600</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first">
+      <option name="closed" value="true" />
+      <created>1749560488499</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749560488499</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="сделана выгрузка для клиентов с динамичными полями через админку, так же список клиентов для добавления ключа на выгрузку" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделана выгрузка для клиентов с динамичными полями через админку, так же список клиентов для добавления ключа на выгрузку" />
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
 </project>
