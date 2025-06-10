@@ -13,8 +13,9 @@ class Clients(models.Model):
     export_url_csv = models.CharField(verbose_name='Ссылка для клиента csv', max_length=255, blank=True)
 
     def save(self, *args, **kwargs):
-        if not self.export_url:  # Генерировать ключ только если его нет
+        if not self.export_url_xlsx:  # Генерировать ключ только если его нет
             self.export_url_xlsx = f'www.merkulio.site/export/{self.key}/xlsx'
+        if not self.export_url_csv:  # Генерировать ключ только если его нет
             self.export_url_csv = f'www.merkulio.site/export/{self.key}/xlsx'
         super().save(*args, **kwargs)
 
