@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-)n*sk-yno%50qxkz0@*@v*ce@&dr72iodn)dumv0!ol(wuilxk'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['merkulio.site', 'www.merkulio.site',]
+ALLOWED_HOSTS = ['merkulio.site', 'www.merkulio.site', '87.228.101.2']
 
 
 # Application definition
