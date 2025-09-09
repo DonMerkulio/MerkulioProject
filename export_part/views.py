@@ -107,6 +107,7 @@ class DownloadFileDromView(View):
         client = get_object_or_404(Clients, key=key)
         print(key, file_type)
         # Получаем данные с API
+        api_url = "https://avax.by/api/all_zap/DueMQ88!Sm43"
 
         response = requests.get(api_url)
         print(request)
